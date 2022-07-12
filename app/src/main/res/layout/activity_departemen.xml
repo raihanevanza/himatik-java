@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartemenActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="119dp"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="122dp"
+                android:layout_marginRight="122dp"
+                app:srcCompat="@drawable/himatik" />
+
+            <TextView
+                android:id="@+id/departxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="138dp"
+                android:layout_marginLeft="138dp"
+                android:layout_marginTop="162dp"
+                android:text="Departemen"
+                android:textColor="#070707"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/danlogtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="353dp"
+                android:text="Danlog"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/kerohtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="232dp"
+                android:layout_marginLeft="232dp"
+                android:layout_marginTop="354dp"
+                android:text="Kerohanian"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/kesmatxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="62dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="550dp"
+                android:text="Kesma"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/sosmatxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="241dp"
+                android:layout_marginLeft="241dp"
+                android:layout_marginTop="550dp"
+                android:text="Sosma"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/sospoltxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="680dp"
+                android:text="Sospol"
+                android:textColor="#070707"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/danlogg"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="224dp"
+                android:layout_marginRight="224dp"
+                app:srcCompat="@drawable/danlog" />
+
+            <ImageView
+                android:id="@+id/kerohh"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="209dp"
+                android:layout_marginLeft="209dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                app:srcCompat="@drawable/keroh" />
+
+            <ImageView
+                android:id="@+id/kesmaa"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="401dp"
+                android:layout_marginEnd="222dp"
+                android:layout_marginRight="222dp"
+                app:srcCompat="@drawable/kesma" />
+
+            <ImageView
+                android:id="@+id/sosmaa"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="204dp"
+                android:layout_marginLeft="204dp"
+                android:layout_marginTop="402dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginRight="37dp"
+                app:srcCompat="@drawable/sosma" />
+
+            <ImageView
+                android:id="@+id/sospoll"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginEnd="217dp"
+                android:layout_marginRight="217dp"
+                app:srcCompat="@drawable/sospol" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="740dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        app:srcCompat="@drawable/gamback" />
+
+</RelativeLayout>

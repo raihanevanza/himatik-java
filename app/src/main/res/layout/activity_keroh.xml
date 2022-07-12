@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".KerohActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_navigation"
+    app:itemBackground="@color/colorPrimary"
+    app:itemTextColor="@drawable/selector"
+    app:itemIconTint="@drawable/selector"
+    app:menu="@menu/menu_navigation"
+    android:layout_alignParentBottom="true">
+
+</com.google.android.material.bottomnavigation.BottomNavigationView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="119dp"
+            android:layout_height="145dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginRight="122dp"
+            app:srcCompat="@drawable/keroh" />
+
+
+        <TextView
+            android:id="@+id/departxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="-1dp"
+            android:text="Keroh"
+            android:textColor="#070707"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="740dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginRight="-4dp"
+            app:srcCompat="@drawable/gamback" />
+
+        <ImageView
+            android:id="@+id/kotak"
+            android:layout_width="194dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="200dp"
+            app:srcCompat="@drawable/kotak" />
+
+
+        <TextView
+            android:id="@+id/kerohtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="230dp"
+            android:text="Haruko"
+            android:textColor="#070707" />
+
+        <TextView
+            android:id="@+id/kerohtxt6"
+            android:layout_width="108dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="265dp"
+            android:text="Menghimbau mahasiswa  menggunakanpakaian  koko(pria) dan kerudung (wanita) pada setiap hari Jumat"
+            android:textColor="#070707"
+            android:textSize="10sp" />
+
+
+        <ImageView
+            android:id="@+id/kotak2"
+            android:layout_width="194dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginLeft="187dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/kotak" />
+
+        <TextView
+            android:id="@+id/kerohtxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="197dp"
+            android:layout_marginLeft="197dp"
+            android:layout_marginTop="239dp"
+            android:text="PETUAH dan POSTLINE"
+            android:textColor="#070707"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/kerohtxt3"
+            android:layout_width="117dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="203dp"
+            android:layout_marginLeft="203dp"
+            android:layout_marginTop="265dp"
+            android:text="Memberikan pengetahuan dan informasi kepada siswa TIK tentang keragaman."
+            android:textColor="#070707"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/kotak3"
+            android:layout_width="194dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="392dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginRight="203dp"
+            app:srcCompat="@drawable/kotak" />
+
+        <TextView
+            android:id="@+id/kerohtxt5"
+            android:layout_width="117dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="457dp"
+            android:text="Menjadi tempat bagi siswa jurusan TIK dalam kegiatan amal atau infaq."
+            android:textColor="#070707"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/kerohtxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="429dp"
+            android:text="Amal Siswa"
+            android:textColor="#070707"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/kotak4"
+            android:layout_width="194dp"
+            android:layout_height="175dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="186dp"
+            android:layout_marginTop="389dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            app:srcCompat="@drawable/kotak" />
+
+        <TextView
+            android:id="@+id/kerohtxt7"
+            android:layout_width="117dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="454dp"
+            android:text="Menjadi tempat bagi mahasiswa jurusan TIK khususnya mereka yang beragama Islam untuk mendengarkan tausiyah."
+            android:textColor="#070707"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/kerohtxt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginLeft="229dp"
+            android:layout_marginTop="427dp"
+            android:text="JUMANJI"
+            android:textColor="#070707"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/departxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="175dp"
+            android:text="Program Kerja Dan Agenda"
+            android:textColor="#070707"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

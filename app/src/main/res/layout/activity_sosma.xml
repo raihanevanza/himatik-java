@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SosmaActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="119dp"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="122dp"
+                android:layout_marginRight="122dp"
+                app:srcCompat="@drawable/sosma" />
+
+
+            <TextView
+                android:id="@+id/departxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="162dp"
+                android:layout_marginLeft="162dp"
+                android:layout_marginTop="-1dp"
+                android:text="Sosma"
+                android:textColor="#070707"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="740dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="-4dp"
+                android:layout_marginRight="-4dp"
+                app:srcCompat="@drawable/gamback" />
+
+            <ImageView
+                android:id="@+id/kotak"
+                android:layout_width="194dp"
+                android:layout_height="175dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginRight="200dp"
+                app:srcCompat="@drawable/kotak" />
+
+
+            <TextView
+                android:id="@+id/sosmatxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="233dp"
+                android:text="Secret Massages"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/sosmatxt6"
+                android:layout_width="108dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="265dp"
+                android:text="Mengundang siswa TIK untuk mengekspresikan aspirasi mereka tentang kehidupan kampus."
+                android:textColor="#070707"
+                android:textSize="10sp" />
+
+
+            <ImageView
+                android:id="@+id/kotak2"
+                android:layout_width="194dp"
+                android:layout_height="175dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="187dp"
+                android:layout_marginLeft="187dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/kotak" />
+
+            <TextView
+                android:id="@+id/sosmatxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="238dp"
+                android:layout_marginLeft="238dp"
+                android:layout_marginTop="235dp"
+                android:text="SAUM"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sosmatxt3"
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginLeft="203dp"
+                android:layout_marginTop="265dp"
+                android:text="Bagikan kebahagiaan dengan  orang miskin / lanjut usia, dll."
+                android:textColor="#070707"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/kotak3"
+                android:layout_width="194dp"
+                android:layout_height="175dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="392dp"
+                android:layout_marginEnd="203dp"
+                android:layout_marginRight="203dp"
+                app:srcCompat="@drawable/kotak" />
+
+            <TextView
+                android:id="@+id/sosmatxt5"
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="457dp"
+                android:text="Sebagai forum pertemuan antara  mahasiswa dan pihak struktural  jurusan TIK."
+                android:textColor="#070707"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/sosmatxt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="429dp"
+                android:text="Dialog Jurusan"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/kotak4"
+                android:layout_width="194dp"
+                android:layout_height="175dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="186dp"
+                android:layout_marginLeft="186dp"
+                android:layout_marginTop="389dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginRight="31dp"
+                app:srcCompat="@drawable/kotak" />
+
+            <TextView
+                android:id="@+id/sosmatxt7"
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="202dp"
+                android:layout_marginLeft="202dp"
+                android:layout_marginTop="454dp"
+                android:text="Sebagai forum pertemuan antara  mahasiswa dan pihak struktural  jurusan TIK."
+                android:textColor="#070707"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/sosmatxt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="237dp"
+                android:layout_marginLeft="237dp"
+                android:layout_marginTop="428dp"
+                android:text="TAMDAK"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/departxt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="104dp"
+                android:layout_marginLeft="104dp"
+                android:layout_marginTop="175dp"
+                android:text="Program Kerja Dan Agenda"
+                android:textColor="#070707"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
